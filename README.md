@@ -27,9 +27,17 @@ Se ingresó a https://portal.azure.com y se verificó que la suscripción
 **"Azure for Students"** apareciera activa con el crédito de USD 100.
 
 
+Sobre la aplicación
+La aplicación muestra el listado y el detalle de los Pokémon de las primeras 3 generaciones, consumiendo la API PokéAPI.
 
-## Descripción de la aplicación
-PokeDex es una aplicación [describe brevemente: web con HTML/JS, React, etc.]
-que consume la PokeAPI (https://pokeapi.co) para mostrar información de Pokémon.
+Ejecutar en local
+Requiere Node.js 18 LTS.
+
+npm install
+npm start
+La app queda disponible en http://localhost:4200.
+
+Créditos
+Código fuente original: keilermora/pokedex-angular.
 
 
