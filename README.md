@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pokédex Angular
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
@@ -34,3 +35,7 @@ npm start
 - [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
 - [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
 - [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
+=======
+# pokedex
+Aplicacion Poxedex desplegada en Azure 
+>>>>>>> 4a697b28bc4c80bd95594380dcd6aed96c4643c8
