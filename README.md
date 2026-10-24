@@ -1,41 +1,37 @@
-<<<<<<< HEAD
-# Pokédex Angular
+# PokeDex - Despliegue en Azure
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![codecov](https://codecov.io/gh/keilermora/pokedex-angular/branch/master/graph/badge.svg?token=9E0D28IOFT)](https://codecov.io/gh/keilermora/pokedex-angular)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+## Creación de la cuenta en Azure for Students
 
-[https://keilermora.github.io/pokedex-angular/](https://keilermora.github.io/pokedex-angular/)
+### 1. Ingresar al portal de Azure for Students
+Se accedió a https://azure.microsoft.com/free/students
 
-La aplicación muestra el listado y el detalle de los Pokémon de las primeras 3 generaciones.
+![Captura página Azure Students](img/01-azure-students.png)
 
-La imagen que representa un Pokémon en el listado muestra las variaciones que estos tuvieron durante las primeras versiones, desde la versión Green (1996) hasta la version Emerald (2005).
+### 2. Activar la oferta
+Se hizo clic en el botón **"Activar ahora"** (Activate now).
 
-Los detalles de un Pokémon individual muestra sus estadísticas base y los registros de la Pokédex de las diferentes versiones.
+### 3. Iniciar sesión con cuenta Microsoft
+Se inició sesión con una cuenta Microsoft personal (o se creó una nueva).
 
-El proyecto fue desarrollado usando la librería de JavaScript [Angular](https://angular.io/) para crear la interfaz de usuario, en comunicación con la Api RESTful [PokéAPI](https://pokeapi.co/).
+### 4. Verificar la condición de estudiante
+Se ingresó el correo institucional [tu_correo@universidad.edu.co] y se
+verificó mediante el enlace de confirmación enviado al correo.
 
-## Requisitos mínimos
+### 5. Completar el perfil
+Se ingresaron los datos personales: país, nombre, teléfono, etc.
 
-- [Nodejs](https://nodejs.org) con soporte de largo plazo (LTS).
-- Un navegador web
+### 6. Aceptar términos y condiciones
+Se aceptó el acuerdo de suscripción y la declaración de privacidad.
 
-## Ambiente de pruebas
+### 7. Acceso al portal
+Se ingresó a https://portal.azure.com y se verificó que la suscripción
+**"Azure for Students"** apareciera activa con el crédito de USD 100.
 
-Ejecutar en la raíz del proyecto:
+![Captura portal Azure](img/02-portal.png)
 
-```
-npm start
-```
+## Descripción de la aplicación
+PokeDex es una aplicación [describe brevemente: web con HTML/JS, React, etc.]
+que consume la PokeAPI (https://pokeapi.co) para mostrar información de Pokémon.
 
-## Referencias
-
-- [Angular](https://angular.io/): One framework.
-- [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/): Create a skeleton structure which is flexible for projects big or small.
-- [Font Awesome](https://fontawesome.com/): The web's most popular icon set and toolkit.
-- [Normalize.css](https://necolas.github.io/normalize.css/): A modern, HTML5-ready alternative to CSS resets.
-- [PokéAPI](https://pokeapi.co/): The RESTful Pokémon API.
-=======
-# pokedex
-Aplicacion Poxedex desplegada en Azure 
->>>>>>> 4a697b28bc4c80bd95594380dcd6aed96c4643c8
+## Despliegue
+Ver el archivo [Despliegue.md](Despliegue.md).
